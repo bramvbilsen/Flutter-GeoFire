@@ -11,13 +11,13 @@ GeoFire requires the Firebase database in order to store location data. You can 
 
 ### Adding to a project
 You can add this project to your repo by adding the following to your `pubspec.yaml` under your dependencies:
-```
+```dart
 geofire:
   git:
     url: "git://github.com/bramvbilsen/Flutter-GeoFire.git"
 ```
 You can import the library like this:
-```
+```dart
 import 'package:geofire/geofire.dart';
 ```
 
