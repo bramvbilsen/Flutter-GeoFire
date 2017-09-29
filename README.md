@@ -9,6 +9,18 @@ GeoFire requires the Firebase database in order to store location data. You can 
 
 ## Quickstart
 
+### Adding to a project
+You can add this project to your repo by adding the following to your `pubspec.yaml` under your dependencies:
+```
+geofire:
+  git:
+    url: "git://github.com/bramvbilsen/Flutter-GeoFire.git"
+```
+You can import the library like this:
+```
+import 'package:geofire/geofire.dart';
+```
+
 ### GeoFire
 Use a `GeoFire` object to read and write location data to your Firebase database. A `GeoFire` instance needs a path reference to where you are working in the database. This path reference will be a `String`. 
 ```dart
