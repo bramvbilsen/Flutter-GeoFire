@@ -81,7 +81,7 @@ geofire.getLocation("Mechelen", new LocationCallBack(
 ### GeoQuery
 You can perform queries with GeoFire to get back multiple keys in a certain region with the `GeoQuery` class. You can add a `GeoQueryEventListener` which to an instance of a `GeoQuery` object which will notify you when the listener is ready to use, when new keys enter the region, when keys leave the region, when keys move and when an error occurred. To add a `GeoQuery` to a `GeoFire` instance, you call `addGeoQueryEventListener`. The first argument will be the center (again in the double list notation), and the second argument will be a double to represent the radius.
 ```dart
-GeoQuery query = geofire.queryAtLocation([51.0259, 4.4775], 50)
+GeoQuery query = geofire.queryAtLocation([51.0259, 4.4775], 50.0)
 ```
 
 ##### Receiving events for GeoQueries
