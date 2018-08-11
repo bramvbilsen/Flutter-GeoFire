@@ -1,3 +1,6 @@
+# Abandoned!
+Because I do not have the time to actively support this anymore, I changed the status of this project to "abandoned". This project was last tested when Flutter was still in Alpha, so things might be broken. For those still willing to contribute, I will accept pull requests.
+
 # Flutter GeoFire
 
 ![Firebase logo](https://firebase.google.com/_static/images/firebase/touchicon-180.png)
